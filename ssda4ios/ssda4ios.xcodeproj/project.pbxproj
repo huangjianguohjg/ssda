@@ -1,0 +1,978 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		655810EA1EB7229400BD6369 /* SSDBizInfoStep-3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655810E91EB7229400BD6369 /* SSDBizInfoStep-3ViewController.m */; };
+		655810ED1EB723EA00BD6369 /* SSDBizInfoStep-3View.m in Sources */ = {isa = PBXBuildFile; fileRef = 655810EC1EB723EA00BD6369 /* SSDBizInfoStep-3View.m */; };
+		655811171EB7577500BD6369 /* SSDSideslipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 655811161EB7577500BD6369 /* SSDSideslipView.m */; };
+		6558111A1EB7693800BD6369 /* SideslipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 655811191EB7693800BD6369 /* SideslipView.m */; };
+		65E9953D1EB6020200882CE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E9953C1EB6020200882CE5 /* main.m */; };
+		65E995401EB6020200882CE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E9953F1EB6020200882CE5 /* AppDelegate.m */; };
+		65E995461EB6020200882CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E995441EB6020200882CE5 /* Main.storyboard */; };
+		65E995481EB6020200882CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E995471EB6020200882CE5 /* Assets.xcassets */; };
+		65E9954B1EB6020200882CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E995491EB6020200882CE5 /* LaunchScreen.storyboard */; };
+		65E995641EB603DA00882CE5 /* SSDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E995631EB603DA00882CE5 /* SSDBaseViewController.m */; };
+		65E995671EB6042C00882CE5 /* SSDNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E995661EB6042C00882CE5 /* SSDNavgationController.m */; };
+		65E9956A1EB604B900882CE5 /* SSDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E995691EB604B900882CE5 /* SSDLoginViewController.m */; };
+		65E9956D1EB61F6A00882CE5 /* SSDLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E9956C1EB61F6A00882CE5 /* SSDLoginView.m */; };
+		65E995711EB6210E00882CE5 /* UIView+ChangeSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E995701EB6210E00882CE5 /* UIView+ChangeSize.m */; };
+		65E995741EB6237C00882CE5 /* UIColor+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E995731EB6237C00882CE5 /* UIColor+UIColor.m */; };
+		65E9957A1EB635F600882CE5 /* UILabel+XXJLableFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E995791EB635F600882CE5 /* UILabel+XXJLableFit.m */; };
+		65E9957D1EB6529F00882CE5 /* SSDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E9957C1EB6529F00882CE5 /* SSDHomeViewController.m */; };
+		65E995831EB6531D00882CE5 /* SSDHomePublishVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E995821EB6531D00882CE5 /* SSDHomePublishVIew.m */; };
+		65E995861EB6532C00882CE5 /* SSDHomeProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E995851EB6532C00882CE5 /* SSDHomeProcessView.m */; };
+		65EE42541EB6B04100671654 /* SSDHomePopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE42531EB6B04100671654 /* SSDHomePopupView.m */; };
+		65EE42571EB6B0A800671654 /* XXJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE42561EB6B0A800671654 /* XXJButton.m */; };
+		65EE42611EB6D25600671654 /* SSDBizInfoVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE42601EB6D25600671654 /* SSDBizInfoVIew.m */; };
+		65EE42641EB6DA9200671654 /* UIBarButtonItem+XXJNavItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE42631EB6DA9200671654 /* UIBarButtonItem+XXJNavItem.m */; };
+		65EE426A1EB6E0C500671654 /* InfoTexdFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE42691EB6E0C500671654 /* InfoTexdFieldView.m */; };
+		65EE426E1EB6F82E00671654 /* SSDBizInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE426D1EB6F82E00671654 /* SSDBizInfoViewController.m */; };
+		65EE42711EB704A900671654 /* SSDBizInfoStep-2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE42701EB704A900671654 /* SSDBizInfoStep-2ViewController.m */; };
+		65EE42741EB704D500671654 /* SSDBizInfoStep-2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE42731EB704D500671654 /* SSDBizInfoStep-2View.m */; };
+		AC48FE2B1EB98C02000D1D06 /* BRPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE2A1EB98C02000D1D06 /* BRPlaceholderTextView.m */; };
+		AC48FE3E1EB99B1B000D1D06 /* SSDSideslipAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE3D1EB99B1B000D1D06 /* SSDSideslipAboutMeViewController.m */; };
+		AC48FE4D1EB99B8B000D1D06 /* SSDbillReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE411EB99B8B000D1D06 /* SSDbillReportViewController.m */; };
+		AC48FE4E1EB99B8B000D1D06 /* SSDReportDeliveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE431EB99B8B000D1D06 /* SSDReportDeliveryViewController.m */; };
+		AC48FE4F1EB99B8B000D1D06 /* SSDReportStaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE451EB99B8B000D1D06 /* SSDReportStaffViewController.m */; };
+		AC48FE501EB99B8B000D1D06 /* SSDReportStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE471EB99B8B000D1D06 /* SSDReportStoreViewController.m */; };
+		AC48FE511EB99B8B000D1D06 /* SSDReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE491EB99B8B000D1D06 /* SSDReportViewController.m */; };
+		AC48FE521EB99B8B000D1D06 /* SSDStoreApproveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE4C1EB99B8B000D1D06 /* SSDStoreApproveViewController.m */; };
+		AC48FE641EB99D24000D1D06 /* ReportBillReasonView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE591EB99D24000D1D06 /* ReportBillReasonView.m */; };
+		AC48FE651EB99D24000D1D06 /* ReportBillView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE5B1EB99D24000D1D06 /* ReportBillView.m */; };
+		AC48FE661EB99D24000D1D06 /* ReportDeliveryView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE5D1EB99D24000D1D06 /* ReportDeliveryView.m */; };
+		AC48FE671EB99D24000D1D06 /* ReportStaffView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE5F1EB99D24000D1D06 /* ReportStaffView.m */; };
+		AC48FE681EB99D24000D1D06 /* ReportStoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE611EB99D24000D1D06 /* ReportStoreView.m */; };
+		AC48FE691EB99D24000D1D06 /* ReportView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE631EB99D24000D1D06 /* ReportView.m */; };
+		AC48FE6D1EB99D29000D1D06 /* SideslipStoreApprove.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE6C1EB99D29000D1D06 /* SideslipStoreApprove.m */; };
+		AC48FE741EB99D7B000D1D06 /* SideslpiAboutMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE721EB99D7B000D1D06 /* SideslpiAboutMe.m */; };
+		AC48FE771EB99DA8000D1D06 /* AboutMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AC48FE761EB99DA8000D1D06 /* AboutMe.m */; };
+		AC7A927A1EB819B1004BA7A7 /* SSDBizInfoCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7A92791EB819B1004BA7A7 /* SSDBizInfoCheckViewController.m */; };
+		AC7A927D1EB819D1004BA7A7 /* SSDBizInfoCheckView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7A927C1EB819D1004BA7A7 /* SSDBizInfoCheckView.m */; };
+		AC7A92801EB82127004BA7A7 /* SSDBizInfoCheckNotiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7A927F1EB82127004BA7A7 /* SSDBizInfoCheckNotiViewController.m */; };
+		AC7A92831EB82148004BA7A7 /* SSDBizInfoCheckNotiView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7A92821EB82148004BA7A7 /* SSDBizInfoCheckNotiView.m */; };
+		AC7A92861EB84426004BA7A7 /* BizInfoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7A92851EB84426004BA7A7 /* BizInfoButton.m */; };
+		AC7A92891EB84690004BA7A7 /* BizinfoOtherButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7A92881EB84690004BA7A7 /* BizinfoOtherButton.m */; };
+		ACEAA3131EB99EDC005262C3 /* SSDSideslipSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA3121EB99EDC005262C3 /* SSDSideslipSettingViewController.m */; };
+		ACEAA3161EB99F0C005262C3 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA3151EB99F0C005262C3 /* SettingView.m */; };
+		ACEAA3191EB9A6A6005262C3 /* SSDSettingChangeNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA3181EB9A6A6005262C3 /* SSDSettingChangeNumberViewController.m */; };
+		ACEAA31C1EB9A6C7005262C3 /* ChangeNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA31B1EB9A6C7005262C3 /* ChangeNumberView.m */; };
+		ACEAA31F1EB9AE56005262C3 /* ChangeNum.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA31E1EB9AE56005262C3 /* ChangeNum.m */; };
+		ACEAA3221EB9C320005262C3 /* SSDQickBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA3211EB9C320005262C3 /* SSDQickBillViewController.m */; };
+		ACEAA3251EB9C356005262C3 /* QuickBillView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA3241EB9C356005262C3 /* QuickBillView.m */; };
+		ACEAA3281EB9C506005262C3 /* QuickBill.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA3271EB9C506005262C3 /* QuickBill.m */; };
+		ACEAA32B1EB9CF30005262C3 /* PulldownView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEAA32A1EB9CF30005262C3 /* PulldownView.m */; };
+		BC80F3C122587B99AADB948A /* libPods-ssda4ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F32AD27ED476300D92834A0 /* libPods-ssda4ios.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		655810E81EB7229400BD6369 /* SSDBizInfoStep-3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSDBizInfoStep-3ViewController.h"; sourceTree = "<group>"; };
+		655810E91EB7229400BD6369 /* SSDBizInfoStep-3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSDBizInfoStep-3ViewController.m"; sourceTree = "<group>"; };
+		655810EB1EB723EA00BD6369 /* SSDBizInfoStep-3View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSDBizInfoStep-3View.h"; sourceTree = "<group>"; };
+		655810EC1EB723EA00BD6369 /* SSDBizInfoStep-3View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSDBizInfoStep-3View.m"; sourceTree = "<group>"; };
+		655811151EB7577500BD6369 /* SSDSideslipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDSideslipView.h; sourceTree = "<group>"; };
+		655811161EB7577500BD6369 /* SSDSideslipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDSideslipView.m; sourceTree = "<group>"; };
+		655811181EB7693800BD6369 /* SideslipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideslipView.h; sourceTree = "<group>"; };
+		655811191EB7693800BD6369 /* SideslipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideslipView.m; sourceTree = "<group>"; };
+		65E995381EB6020200882CE5 /* ssda4ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ssda4ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E9953C1EB6020200882CE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65E9953E1EB6020200882CE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65E9953F1EB6020200882CE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65E995451EB6020200882CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65E995471EB6020200882CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65E9954A1EB6020200882CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65E9954C1EB6020200882CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E995621EB603DA00882CE5 /* SSDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDBaseViewController.h; sourceTree = "<group>"; };
+		65E995631EB603DA00882CE5 /* SSDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDBaseViewController.m; sourceTree = "<group>"; };
+		65E995651EB6042C00882CE5 /* SSDNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDNavgationController.h; sourceTree = "<group>"; };
+		65E995661EB6042C00882CE5 /* SSDNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDNavgationController.m; sourceTree = "<group>"; };
+		65E995681EB604B900882CE5 /* SSDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDLoginViewController.h; sourceTree = "<group>"; };
+		65E995691EB604B900882CE5 /* SSDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDLoginViewController.m; sourceTree = "<group>"; };
+		65E9956B1EB61F6A00882CE5 /* SSDLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDLoginView.h; sourceTree = "<group>"; };
+		65E9956C1EB61F6A00882CE5 /* SSDLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDLoginView.m; sourceTree = "<group>"; };
+		65E9956E1EB6207300882CE5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		65E9956F1EB6210E00882CE5 /* UIView+ChangeSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChangeSize.h"; sourceTree = "<group>"; };
+		65E995701EB6210E00882CE5 /* UIView+ChangeSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChangeSize.m"; sourceTree = "<group>"; };
+		65E995721EB6237C00882CE5 /* UIColor+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColor.h"; sourceTree = "<group>"; };
+		65E995731EB6237C00882CE5 /* UIColor+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColor.m"; sourceTree = "<group>"; };
+		65E995781EB635F600882CE5 /* UILabel+XXJLableFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+XXJLableFit.h"; sourceTree = "<group>"; };
+		65E995791EB635F600882CE5 /* UILabel+XXJLableFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+XXJLableFit.m"; sourceTree = "<group>"; };
+		65E9957B1EB6529F00882CE5 /* SSDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDHomeViewController.h; sourceTree = "<group>"; };
+		65E9957C1EB6529F00882CE5 /* SSDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDHomeViewController.m; sourceTree = "<group>"; };
+		65E995811EB6531D00882CE5 /* SSDHomePublishVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDHomePublishVIew.h; sourceTree = "<group>"; };
+		65E995821EB6531D00882CE5 /* SSDHomePublishVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDHomePublishVIew.m; sourceTree = "<group>"; };
+		65E995841EB6532C00882CE5 /* SSDHomeProcessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDHomeProcessView.h; sourceTree = "<group>"; };
+		65E995851EB6532C00882CE5 /* SSDHomeProcessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDHomeProcessView.m; sourceTree = "<group>"; };
+		65EE42521EB6B04100671654 /* SSDHomePopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDHomePopupView.h; sourceTree = "<group>"; };
+		65EE42531EB6B04100671654 /* SSDHomePopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDHomePopupView.m; sourceTree = "<group>"; };
+		65EE42551EB6B0A800671654 /* XXJButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXJButton.h; sourceTree = "<group>"; };
+		65EE42561EB6B0A800671654 /* XXJButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXJButton.m; sourceTree = "<group>"; };
+		65EE425F1EB6D25600671654 /* SSDBizInfoVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDBizInfoVIew.h; sourceTree = "<group>"; };
+		65EE42601EB6D25600671654 /* SSDBizInfoVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDBizInfoVIew.m; sourceTree = "<group>"; };
+		65EE42621EB6DA9200671654 /* UIBarButtonItem+XXJNavItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XXJNavItem.h"; sourceTree = "<group>"; };
+		65EE42631EB6DA9200671654 /* UIBarButtonItem+XXJNavItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XXJNavItem.m"; sourceTree = "<group>"; };
+		65EE42681EB6E0C500671654 /* InfoTexdFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTexdFieldView.h; sourceTree = "<group>"; };
+		65EE42691EB6E0C500671654 /* InfoTexdFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTexdFieldView.m; sourceTree = "<group>"; };
+		65EE426C1EB6F82E00671654 /* SSDBizInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDBizInfoViewController.h; sourceTree = "<group>"; };
+		65EE426D1EB6F82E00671654 /* SSDBizInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDBizInfoViewController.m; sourceTree = "<group>"; };
+		65EE426F1EB704A900671654 /* SSDBizInfoStep-2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSDBizInfoStep-2ViewController.h"; sourceTree = "<group>"; };
+		65EE42701EB704A900671654 /* SSDBizInfoStep-2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSDBizInfoStep-2ViewController.m"; sourceTree = "<group>"; };
+		65EE42721EB704D500671654 /* SSDBizInfoStep-2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSDBizInfoStep-2View.h"; sourceTree = "<group>"; };
+		65EE42731EB704D500671654 /* SSDBizInfoStep-2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSDBizInfoStep-2View.m"; sourceTree = "<group>"; };
+		7F32AD27ED476300D92834A0 /* libPods-ssda4ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ssda4ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEC8C5A737B6575D2CD56F4 /* Pods-ssda4ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ssda4ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-ssda4ios/Pods-ssda4ios.release.xcconfig"; sourceTree = "<group>"; };
+		AC48FE291EB98C02000D1D06 /* BRPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPlaceholderTextView.h; sourceTree = "<group>"; };
+		AC48FE2A1EB98C02000D1D06 /* BRPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPlaceholderTextView.m; sourceTree = "<group>"; };
+		AC48FE3C1EB99B1B000D1D06 /* SSDSideslipAboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDSideslipAboutMeViewController.h; sourceTree = "<group>"; };
+		AC48FE3D1EB99B1B000D1D06 /* SSDSideslipAboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDSideslipAboutMeViewController.m; sourceTree = "<group>"; };
+		AC48FE401EB99B8B000D1D06 /* SSDbillReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDbillReportViewController.h; sourceTree = "<group>"; };
+		AC48FE411EB99B8B000D1D06 /* SSDbillReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDbillReportViewController.m; sourceTree = "<group>"; };
+		AC48FE421EB99B8B000D1D06 /* SSDReportDeliveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDReportDeliveryViewController.h; sourceTree = "<group>"; };
+		AC48FE431EB99B8B000D1D06 /* SSDReportDeliveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDReportDeliveryViewController.m; sourceTree = "<group>"; };
+		AC48FE441EB99B8B000D1D06 /* SSDReportStaffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDReportStaffViewController.h; sourceTree = "<group>"; };
+		AC48FE451EB99B8B000D1D06 /* SSDReportStaffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDReportStaffViewController.m; sourceTree = "<group>"; };
+		AC48FE461EB99B8B000D1D06 /* SSDReportStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDReportStoreViewController.h; sourceTree = "<group>"; };
+		AC48FE471EB99B8B000D1D06 /* SSDReportStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDReportStoreViewController.m; sourceTree = "<group>"; };
+		AC48FE481EB99B8B000D1D06 /* SSDReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDReportViewController.h; sourceTree = "<group>"; };
+		AC48FE491EB99B8B000D1D06 /* SSDReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDReportViewController.m; sourceTree = "<group>"; };
+		AC48FE4B1EB99B8B000D1D06 /* SSDStoreApproveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDStoreApproveViewController.h; sourceTree = "<group>"; };
+		AC48FE4C1EB99B8B000D1D06 /* SSDStoreApproveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDStoreApproveViewController.m; sourceTree = "<group>"; };
+		AC48FE581EB99D24000D1D06 /* ReportBillReasonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportBillReasonView.h; sourceTree = "<group>"; };
+		AC48FE591EB99D24000D1D06 /* ReportBillReasonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportBillReasonView.m; sourceTree = "<group>"; };
+		AC48FE5A1EB99D24000D1D06 /* ReportBillView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportBillView.h; sourceTree = "<group>"; };
+		AC48FE5B1EB99D24000D1D06 /* ReportBillView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportBillView.m; sourceTree = "<group>"; };
+		AC48FE5C1EB99D24000D1D06 /* ReportDeliveryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportDeliveryView.h; sourceTree = "<group>"; };
+		AC48FE5D1EB99D24000D1D06 /* ReportDeliveryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportDeliveryView.m; sourceTree = "<group>"; };
+		AC48FE5E1EB99D24000D1D06 /* ReportStaffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportStaffView.h; sourceTree = "<group>"; };
+		AC48FE5F1EB99D24000D1D06 /* ReportStaffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportStaffView.m; sourceTree = "<group>"; };
+		AC48FE601EB99D24000D1D06 /* ReportStoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportStoreView.h; sourceTree = "<group>"; };
+		AC48FE611EB99D24000D1D06 /* ReportStoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportStoreView.m; sourceTree = "<group>"; };
+		AC48FE621EB99D24000D1D06 /* ReportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportView.h; sourceTree = "<group>"; };
+		AC48FE631EB99D24000D1D06 /* ReportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportView.m; sourceTree = "<group>"; };
+		AC48FE6B1EB99D29000D1D06 /* SideslipStoreApprove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideslipStoreApprove.h; sourceTree = "<group>"; };
+		AC48FE6C1EB99D29000D1D06 /* SideslipStoreApprove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideslipStoreApprove.m; sourceTree = "<group>"; };
+		AC48FE711EB99D7B000D1D06 /* SideslpiAboutMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideslpiAboutMe.h; sourceTree = "<group>"; };
+		AC48FE721EB99D7B000D1D06 /* SideslpiAboutMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideslpiAboutMe.m; sourceTree = "<group>"; };
+		AC48FE751EB99DA7000D1D06 /* AboutMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMe.h; sourceTree = "<group>"; };
+		AC48FE761EB99DA8000D1D06 /* AboutMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMe.m; sourceTree = "<group>"; };
+		AC7A92781EB819B1004BA7A7 /* SSDBizInfoCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDBizInfoCheckViewController.h; sourceTree = "<group>"; };
+		AC7A92791EB819B1004BA7A7 /* SSDBizInfoCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDBizInfoCheckViewController.m; sourceTree = "<group>"; };
+		AC7A927B1EB819D1004BA7A7 /* SSDBizInfoCheckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDBizInfoCheckView.h; sourceTree = "<group>"; };
+		AC7A927C1EB819D1004BA7A7 /* SSDBizInfoCheckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDBizInfoCheckView.m; sourceTree = "<group>"; };
+		AC7A927E1EB82127004BA7A7 /* SSDBizInfoCheckNotiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDBizInfoCheckNotiViewController.h; sourceTree = "<group>"; };
+		AC7A927F1EB82127004BA7A7 /* SSDBizInfoCheckNotiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDBizInfoCheckNotiViewController.m; sourceTree = "<group>"; };
+		AC7A92811EB82148004BA7A7 /* SSDBizInfoCheckNotiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDBizInfoCheckNotiView.h; sourceTree = "<group>"; };
+		AC7A92821EB82148004BA7A7 /* SSDBizInfoCheckNotiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDBizInfoCheckNotiView.m; sourceTree = "<group>"; };
+		AC7A92841EB84426004BA7A7 /* BizInfoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BizInfoButton.h; sourceTree = "<group>"; };
+		AC7A92851EB84426004BA7A7 /* BizInfoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BizInfoButton.m; sourceTree = "<group>"; };
+		AC7A92871EB84690004BA7A7 /* BizinfoOtherButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BizinfoOtherButton.h; sourceTree = "<group>"; };
+		AC7A92881EB84690004BA7A7 /* BizinfoOtherButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BizinfoOtherButton.m; sourceTree = "<group>"; };
+		ACEAA3111EB99EDC005262C3 /* SSDSideslipSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDSideslipSettingViewController.h; sourceTree = "<group>"; };
+		ACEAA3121EB99EDC005262C3 /* SSDSideslipSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDSideslipSettingViewController.m; sourceTree = "<group>"; };
+		ACEAA3141EB99F0C005262C3 /* SettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
+		ACEAA3151EB99F0C005262C3 /* SettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
+		ACEAA3171EB9A6A6005262C3 /* SSDSettingChangeNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDSettingChangeNumberViewController.h; sourceTree = "<group>"; };
+		ACEAA3181EB9A6A6005262C3 /* SSDSettingChangeNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDSettingChangeNumberViewController.m; sourceTree = "<group>"; };
+		ACEAA31A1EB9A6C7005262C3 /* ChangeNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeNumberView.h; sourceTree = "<group>"; };
+		ACEAA31B1EB9A6C7005262C3 /* ChangeNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeNumberView.m; sourceTree = "<group>"; };
+		ACEAA31D1EB9AE56005262C3 /* ChangeNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeNum.h; sourceTree = "<group>"; };
+		ACEAA31E1EB9AE56005262C3 /* ChangeNum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeNum.m; sourceTree = "<group>"; };
+		ACEAA3201EB9C320005262C3 /* SSDQickBillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDQickBillViewController.h; sourceTree = "<group>"; };
+		ACEAA3211EB9C320005262C3 /* SSDQickBillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDQickBillViewController.m; sourceTree = "<group>"; };
+		ACEAA3231EB9C356005262C3 /* QuickBillView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickBillView.h; sourceTree = "<group>"; };
+		ACEAA3241EB9C356005262C3 /* QuickBillView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickBillView.m; sourceTree = "<group>"; };
+		ACEAA3261EB9C506005262C3 /* QuickBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickBill.h; sourceTree = "<group>"; };
+		ACEAA3271EB9C506005262C3 /* QuickBill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickBill.m; sourceTree = "<group>"; };
+		ACEAA3291EB9CF30005262C3 /* PulldownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulldownView.h; sourceTree = "<group>"; };
+		ACEAA32A1EB9CF30005262C3 /* PulldownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulldownView.m; sourceTree = "<group>"; };
+		AEAF748B2876F3E272F5BB0C /* Pods-ssda4ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ssda4ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ssda4ios/Pods-ssda4ios.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65E995351EB6020200882CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC80F3C122587B99AADB948A /* libPods-ssda4ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40235F2365C410ACD1AAA8E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F32AD27ED476300D92834A0 /* libPods-ssda4ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45C127529D1F47C14B4F45F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF748B2876F3E272F5BB0C /* Pods-ssda4ios.debug.xcconfig */,
+				8FEC8C5A737B6575D2CD56F4 /* Pods-ssda4ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		655811111EB7574500BD6369 /* Sideslip */ = {
+			isa = PBXGroup;
+			children = (
+				655811121EB7574500BD6369 /* Controller */,
+				655811131EB7574500BD6369 /* Model */,
+				655811141EB7574500BD6369 /* View */,
+			);
+			name = Sideslip;
+			path = Main/Sideslip;
+			sourceTree = "<group>";
+		};
+		655811121EB7574500BD6369 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACEAA3101EB99EA8005262C3 /* Setting */,
+				AC48FE3B1EB99B1B000D1D06 /* AboutMe */,
+				AC48FE3F1EB99B8B000D1D06 /* Report */,
+				AC48FE4A1EB99B8B000D1D06 /* StoreApprove */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		655811131EB7574500BD6369 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		655811141EB7574500BD6369 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACEAA30F1EB99E81005262C3 /* Setting */,
+				AC48FE6E1EB99D7B000D1D06 /* AboutMe */,
+				AC48FE6A1EB99D29000D1D06 /* StoreApprove */,
+				AC48FE571EB99D24000D1D06 /* Report */,
+				655811151EB7577500BD6369 /* SSDSideslipView.h */,
+				655811161EB7577500BD6369 /* SSDSideslipView.m */,
+				655811181EB7693800BD6369 /* SideslipView.h */,
+				655811191EB7693800BD6369 /* SideslipView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65E9952F1EB6020200882CE5 = {
+			isa = PBXGroup;
+			children = (
+				65E9953A1EB6020200882CE5 /* ssda4ios */,
+				65E995391EB6020200882CE5 /* Products */,
+				45C127529D1F47C14B4F45F9 /* Pods */,
+				40235F2365C410ACD1AAA8E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65E995391EB6020200882CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65E995381EB6020200882CE5 /* ssda4ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E9953A1EB6020200882CE5 /* ssda4ios */ = {
+			isa = PBXGroup;
+			children = (
+				65E995521EB602DF00882CE5 /* Classes */,
+				65E9953E1EB6020200882CE5 /* AppDelegate.h */,
+				65E9953F1EB6020200882CE5 /* AppDelegate.m */,
+				65E995441EB6020200882CE5 /* Main.storyboard */,
+				65E995471EB6020200882CE5 /* Assets.xcassets */,
+				65E995491EB6020200882CE5 /* LaunchScreen.storyboard */,
+				65E9954C1EB6020200882CE5 /* Info.plist */,
+				65E9953B1EB6020200882CE5 /* Supporting Files */,
+			);
+			path = ssda4ios;
+			sourceTree = "<group>";
+		};
+		65E9953B1EB6020200882CE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65E9953C1EB6020200882CE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65E995521EB602DF00882CE5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65E9955E1EB6039F00882CE5 /* Main */,
+				65E995551EB602DF00882CE5 /* Login */,
+				65E9955A1EB6039500882CE5 /* Home */,
+				655811111EB7574500BD6369 /* Sideslip */,
+				65EE42581EB6D1D900671654 /* BizInfo */,
+				65E995531EB602DF00882CE5 /* Category */,
+				65E995541EB602DF00882CE5 /* Lib */,
+				65E995591EB602DF00882CE5 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		65E995531EB602DF00882CE5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AC48FE291EB98C02000D1D06 /* BRPlaceholderTextView.h */,
+				AC48FE2A1EB98C02000D1D06 /* BRPlaceholderTextView.m */,
+				65EE42621EB6DA9200671654 /* UIBarButtonItem+XXJNavItem.h */,
+				65EE42631EB6DA9200671654 /* UIBarButtonItem+XXJNavItem.m */,
+				65EE42551EB6B0A800671654 /* XXJButton.h */,
+				65EE42561EB6B0A800671654 /* XXJButton.m */,
+				AC7A92841EB84426004BA7A7 /* BizInfoButton.h */,
+				AC7A92851EB84426004BA7A7 /* BizInfoButton.m */,
+				AC7A92871EB84690004BA7A7 /* BizinfoOtherButton.h */,
+				AC7A92881EB84690004BA7A7 /* BizinfoOtherButton.m */,
+				65E995781EB635F600882CE5 /* UILabel+XXJLableFit.h */,
+				65E995791EB635F600882CE5 /* UILabel+XXJLableFit.m */,
+				65E995721EB6237C00882CE5 /* UIColor+UIColor.h */,
+				65E995731EB6237C00882CE5 /* UIColor+UIColor.m */,
+				65E9956F1EB6210E00882CE5 /* UIView+ChangeSize.h */,
+				65E995701EB6210E00882CE5 /* UIView+ChangeSize.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		65E995541EB602DF00882CE5 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		65E995551EB602DF00882CE5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				65E995561EB602DF00882CE5 /* Controller */,
+				65E995571EB602DF00882CE5 /* Model */,
+				65E995581EB602DF00882CE5 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		65E995561EB602DF00882CE5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65E995681EB604B900882CE5 /* SSDLoginViewController.h */,
+				65E995691EB604B900882CE5 /* SSDLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65E995571EB602DF00882CE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65E995581EB602DF00882CE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65E9956B1EB61F6A00882CE5 /* SSDLoginView.h */,
+				65E9956C1EB61F6A00882CE5 /* SSDLoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65E995591EB602DF00882CE5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				65E9956E1EB6207300882CE5 /* PrefixHeader.pch */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		65E9955A1EB6039500882CE5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				65E9955B1EB6039500882CE5 /* Controller */,
+				65E9955C1EB6039500882CE5 /* Model */,
+				65E9955D1EB6039500882CE5 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		65E9955B1EB6039500882CE5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65E9957B1EB6529F00882CE5 /* SSDHomeViewController.h */,
+				65E9957C1EB6529F00882CE5 /* SSDHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65E9955C1EB6039500882CE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65E9955D1EB6039500882CE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65E995811EB6531D00882CE5 /* SSDHomePublishVIew.h */,
+				65E995821EB6531D00882CE5 /* SSDHomePublishVIew.m */,
+				65E995841EB6532C00882CE5 /* SSDHomeProcessView.h */,
+				65E995851EB6532C00882CE5 /* SSDHomeProcessView.m */,
+				65EE42521EB6B04100671654 /* SSDHomePopupView.h */,
+				65EE42531EB6B04100671654 /* SSDHomePopupView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65E9955E1EB6039F00882CE5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				65E9955F1EB6039F00882CE5 /* Controller */,
+				65E995601EB6039F00882CE5 /* Model */,
+				65E995611EB6039F00882CE5 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		65E9955F1EB6039F00882CE5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65E995621EB603DA00882CE5 /* SSDBaseViewController.h */,
+				65E995631EB603DA00882CE5 /* SSDBaseViewController.m */,
+				65E995651EB6042C00882CE5 /* SSDNavgationController.h */,
+				65E995661EB6042C00882CE5 /* SSDNavgationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65E995601EB6039F00882CE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65E995611EB6039F00882CE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65EE42581EB6D1D900671654 /* BizInfo */ = {
+			isa = PBXGroup;
+			children = (
+				65EE426B1EB6F82E00671654 /* Controller */,
+				65EE425A1EB6D1D900671654 /* Model */,
+				65EE425B1EB6D1D900671654 /* VIew */,
+			);
+			path = BizInfo;
+			sourceTree = "<group>";
+		};
+		65EE425A1EB6D1D900671654 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65EE425B1EB6D1D900671654 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				65EE425F1EB6D25600671654 /* SSDBizInfoVIew.h */,
+				65EE42601EB6D25600671654 /* SSDBizInfoVIew.m */,
+				65EE42681EB6E0C500671654 /* InfoTexdFieldView.h */,
+				65EE42691EB6E0C500671654 /* InfoTexdFieldView.m */,
+				65EE42721EB704D500671654 /* SSDBizInfoStep-2View.h */,
+				65EE42731EB704D500671654 /* SSDBizInfoStep-2View.m */,
+				655810EB1EB723EA00BD6369 /* SSDBizInfoStep-3View.h */,
+				655810EC1EB723EA00BD6369 /* SSDBizInfoStep-3View.m */,
+				AC7A927B1EB819D1004BA7A7 /* SSDBizInfoCheckView.h */,
+				AC7A927C1EB819D1004BA7A7 /* SSDBizInfoCheckView.m */,
+				AC7A92811EB82148004BA7A7 /* SSDBizInfoCheckNotiView.h */,
+				AC7A92821EB82148004BA7A7 /* SSDBizInfoCheckNotiView.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		65EE426B1EB6F82E00671654 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65EE426C1EB6F82E00671654 /* SSDBizInfoViewController.h */,
+				65EE426D1EB6F82E00671654 /* SSDBizInfoViewController.m */,
+				65EE426F1EB704A900671654 /* SSDBizInfoStep-2ViewController.h */,
+				65EE42701EB704A900671654 /* SSDBizInfoStep-2ViewController.m */,
+				655810E81EB7229400BD6369 /* SSDBizInfoStep-3ViewController.h */,
+				655810E91EB7229400BD6369 /* SSDBizInfoStep-3ViewController.m */,
+				AC7A92781EB819B1004BA7A7 /* SSDBizInfoCheckViewController.h */,
+				AC7A92791EB819B1004BA7A7 /* SSDBizInfoCheckViewController.m */,
+				AC7A927E1EB82127004BA7A7 /* SSDBizInfoCheckNotiViewController.h */,
+				AC7A927F1EB82127004BA7A7 /* SSDBizInfoCheckNotiViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC48FE3B1EB99B1B000D1D06 /* AboutMe */ = {
+			isa = PBXGroup;
+			children = (
+				AC48FE3C1EB99B1B000D1D06 /* SSDSideslipAboutMeViewController.h */,
+				AC48FE3D1EB99B1B000D1D06 /* SSDSideslipAboutMeViewController.m */,
+			);
+			path = AboutMe;
+			sourceTree = "<group>";
+		};
+		AC48FE3F1EB99B8B000D1D06 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				AC48FE401EB99B8B000D1D06 /* SSDbillReportViewController.h */,
+				AC48FE411EB99B8B000D1D06 /* SSDbillReportViewController.m */,
+				AC48FE421EB99B8B000D1D06 /* SSDReportDeliveryViewController.h */,
+				AC48FE431EB99B8B000D1D06 /* SSDReportDeliveryViewController.m */,
+				AC48FE441EB99B8B000D1D06 /* SSDReportStaffViewController.h */,
+				AC48FE451EB99B8B000D1D06 /* SSDReportStaffViewController.m */,
+				AC48FE461EB99B8B000D1D06 /* SSDReportStoreViewController.h */,
+				AC48FE471EB99B8B000D1D06 /* SSDReportStoreViewController.m */,
+				AC48FE481EB99B8B000D1D06 /* SSDReportViewController.h */,
+				AC48FE491EB99B8B000D1D06 /* SSDReportViewController.m */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		AC48FE4A1EB99B8B000D1D06 /* StoreApprove */ = {
+			isa = PBXGroup;
+			children = (
+				AC48FE4B1EB99B8B000D1D06 /* SSDStoreApproveViewController.h */,
+				AC48FE4C1EB99B8B000D1D06 /* SSDStoreApproveViewController.m */,
+			);
+			path = StoreApprove;
+			sourceTree = "<group>";
+		};
+		AC48FE571EB99D24000D1D06 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				AC48FE581EB99D24000D1D06 /* ReportBillReasonView.h */,
+				AC48FE591EB99D24000D1D06 /* ReportBillReasonView.m */,
+				AC48FE5A1EB99D24000D1D06 /* ReportBillView.h */,
+				AC48FE5B1EB99D24000D1D06 /* ReportBillView.m */,
+				AC48FE5C1EB99D24000D1D06 /* ReportDeliveryView.h */,
+				AC48FE5D1EB99D24000D1D06 /* ReportDeliveryView.m */,
+				AC48FE5E1EB99D24000D1D06 /* ReportStaffView.h */,
+				AC48FE5F1EB99D24000D1D06 /* ReportStaffView.m */,
+				AC48FE601EB99D24000D1D06 /* ReportStoreView.h */,
+				AC48FE611EB99D24000D1D06 /* ReportStoreView.m */,
+				AC48FE621EB99D24000D1D06 /* ReportView.h */,
+				AC48FE631EB99D24000D1D06 /* ReportView.m */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		AC48FE6A1EB99D29000D1D06 /* StoreApprove */ = {
+			isa = PBXGroup;
+			children = (
+				AC48FE6B1EB99D29000D1D06 /* SideslipStoreApprove.h */,
+				AC48FE6C1EB99D29000D1D06 /* SideslipStoreApprove.m */,
+			);
+			path = StoreApprove;
+			sourceTree = "<group>";
+		};
+		AC48FE6E1EB99D7B000D1D06 /* AboutMe */ = {
+			isa = PBXGroup;
+			children = (
+				AC48FE751EB99DA7000D1D06 /* AboutMe.h */,
+				AC48FE761EB99DA8000D1D06 /* AboutMe.m */,
+				AC48FE711EB99D7B000D1D06 /* SideslpiAboutMe.h */,
+				AC48FE721EB99D7B000D1D06 /* SideslpiAboutMe.m */,
+			);
+			path = AboutMe;
+			sourceTree = "<group>";
+		};
+		ACEAA30F1EB99E81005262C3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				ACEAA3141EB99F0C005262C3 /* SettingView.h */,
+				ACEAA3151EB99F0C005262C3 /* SettingView.m */,
+				ACEAA31A1EB9A6C7005262C3 /* ChangeNumberView.h */,
+				ACEAA31B1EB9A6C7005262C3 /* ChangeNumberView.m */,
+				ACEAA31D1EB9AE56005262C3 /* ChangeNum.h */,
+				ACEAA31E1EB9AE56005262C3 /* ChangeNum.m */,
+				ACEAA3231EB9C356005262C3 /* QuickBillView.h */,
+				ACEAA3241EB9C356005262C3 /* QuickBillView.m */,
+				ACEAA3261EB9C506005262C3 /* QuickBill.h */,
+				ACEAA3271EB9C506005262C3 /* QuickBill.m */,
+				ACEAA3291EB9CF30005262C3 /* PulldownView.h */,
+				ACEAA32A1EB9CF30005262C3 /* PulldownView.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		ACEAA3101EB99EA8005262C3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				ACEAA3111EB99EDC005262C3 /* SSDSideslipSettingViewController.h */,
+				ACEAA3121EB99EDC005262C3 /* SSDSideslipSettingViewController.m */,
+				ACEAA3171EB9A6A6005262C3 /* SSDSettingChangeNumberViewController.h */,
+				ACEAA3181EB9A6A6005262C3 /* SSDSettingChangeNumberViewController.m */,
+				ACEAA3201EB9C320005262C3 /* SSDQickBillViewController.h */,
+				ACEAA3211EB9C320005262C3 /* SSDQickBillViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65E995371EB6020200882CE5 /* ssda4ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E9954F1EB6020200882CE5 /* Build configuration list for PBXNativeTarget "ssda4ios" */;
+			buildPhases = (
+				A69F69EB005AF7A32BDBFC54 /* [CP] Check Pods Manifest.lock */,
+				65E995341EB6020200882CE5 /* Sources */,
+				65E995351EB6020200882CE5 /* Frameworks */,
+				65E995361EB6020200882CE5 /* Resources */,
+				3DB822BCA4E76273B0A88B77 /* [CP] Embed Pods Frameworks */,
+				98244836D280A01DD562C685 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ssda4ios;
+			productName = ssda4ios;
+			productReference = 65E995381EB6020200882CE5 /* ssda4ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65E995301EB6020200882CE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = gaga;
+				TargetAttributes = {
+					65E995371EB6020200882CE5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6ZX7M7HW53;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65E995331EB6020200882CE5 /* Build configuration list for PBXProject "ssda4ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65E9952F1EB6020200882CE5;
+			productRefGroup = 65E995391EB6020200882CE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65E995371EB6020200882CE5 /* ssda4ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65E995361EB6020200882CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E9954B1EB6020200882CE5 /* LaunchScreen.storyboard in Resources */,
+				65E995481EB6020200882CE5 /* Assets.xcassets in Resources */,
+				65E995461EB6020200882CE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DB822BCA4E76273B0A88B77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ssda4ios/Pods-ssda4ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98244836D280A01DD562C685 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ssda4ios/Pods-ssda4ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A69F69EB005AF7A32BDBFC54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65E995341EB6020200882CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48FE3E1EB99B1B000D1D06 /* SSDSideslipAboutMeViewController.m in Sources */,
+				AC7A927D1EB819D1004BA7A7 /* SSDBizInfoCheckView.m in Sources */,
+				65E995861EB6532C00882CE5 /* SSDHomeProcessView.m in Sources */,
+				65EE42611EB6D25600671654 /* SSDBizInfoVIew.m in Sources */,
+				65E9957D1EB6529F00882CE5 /* SSDHomeViewController.m in Sources */,
+				ACEAA31C1EB9A6C7005262C3 /* ChangeNumberView.m in Sources */,
+				ACEAA3131EB99EDC005262C3 /* SSDSideslipSettingViewController.m in Sources */,
+				65EE42641EB6DA9200671654 /* UIBarButtonItem+XXJNavItem.m in Sources */,
+				65EE42541EB6B04100671654 /* SSDHomePopupView.m in Sources */,
+				ACEAA32B1EB9CF30005262C3 /* PulldownView.m in Sources */,
+				AC7A92831EB82148004BA7A7 /* SSDBizInfoCheckNotiView.m in Sources */,
+				ACEAA3161EB99F0C005262C3 /* SettingView.m in Sources */,
+				AC48FE2B1EB98C02000D1D06 /* BRPlaceholderTextView.m in Sources */,
+				AC48FE4F1EB99B8B000D1D06 /* SSDReportStaffViewController.m in Sources */,
+				65EE426E1EB6F82E00671654 /* SSDBizInfoViewController.m in Sources */,
+				65E9957A1EB635F600882CE5 /* UILabel+XXJLableFit.m in Sources */,
+				AC48FE511EB99B8B000D1D06 /* SSDReportViewController.m in Sources */,
+				65E995671EB6042C00882CE5 /* SSDNavgationController.m in Sources */,
+				65E995741EB6237C00882CE5 /* UIColor+UIColor.m in Sources */,
+				6558111A1EB7693800BD6369 /* SideslipView.m in Sources */,
+				AC48FE4D1EB99B8B000D1D06 /* SSDbillReportViewController.m in Sources */,
+				ACEAA3221EB9C320005262C3 /* SSDQickBillViewController.m in Sources */,
+				ACEAA31F1EB9AE56005262C3 /* ChangeNum.m in Sources */,
+				AC48FE681EB99D24000D1D06 /* ReportStoreView.m in Sources */,
+				AC7A92891EB84690004BA7A7 /* BizinfoOtherButton.m in Sources */,
+				65EE42571EB6B0A800671654 /* XXJButton.m in Sources */,
+				65E995711EB6210E00882CE5 /* UIView+ChangeSize.m in Sources */,
+				65EE42711EB704A900671654 /* SSDBizInfoStep-2ViewController.m in Sources */,
+				ACEAA3281EB9C506005262C3 /* QuickBill.m in Sources */,
+				655811171EB7577500BD6369 /* SSDSideslipView.m in Sources */,
+				65E9956D1EB61F6A00882CE5 /* SSDLoginView.m in Sources */,
+				AC7A927A1EB819B1004BA7A7 /* SSDBizInfoCheckViewController.m in Sources */,
+				AC48FE641EB99D24000D1D06 /* ReportBillReasonView.m in Sources */,
+				AC48FE671EB99D24000D1D06 /* ReportStaffView.m in Sources */,
+				65E995641EB603DA00882CE5 /* SSDBaseViewController.m in Sources */,
+				AC48FE6D1EB99D29000D1D06 /* SideslipStoreApprove.m in Sources */,
+				AC7A92801EB82127004BA7A7 /* SSDBizInfoCheckNotiViewController.m in Sources */,
+				65EE42741EB704D500671654 /* SSDBizInfoStep-2View.m in Sources */,
+				ACEAA3191EB9A6A6005262C3 /* SSDSettingChangeNumberViewController.m in Sources */,
+				AC48FE651EB99D24000D1D06 /* ReportBillView.m in Sources */,
+				AC48FE771EB99DA8000D1D06 /* AboutMe.m in Sources */,
+				655810ED1EB723EA00BD6369 /* SSDBizInfoStep-3View.m in Sources */,
+				65E995401EB6020200882CE5 /* AppDelegate.m in Sources */,
+				65E9953D1EB6020200882CE5 /* main.m in Sources */,
+				AC48FE4E1EB99B8B000D1D06 /* SSDReportDeliveryViewController.m in Sources */,
+				ACEAA3251EB9C356005262C3 /* QuickBillView.m in Sources */,
+				AC48FE741EB99D7B000D1D06 /* SideslpiAboutMe.m in Sources */,
+				65E995831EB6531D00882CE5 /* SSDHomePublishVIew.m in Sources */,
+				AC48FE661EB99D24000D1D06 /* ReportDeliveryView.m in Sources */,
+				AC48FE501EB99B8B000D1D06 /* SSDReportStoreViewController.m in Sources */,
+				AC48FE521EB99B8B000D1D06 /* SSDStoreApproveViewController.m in Sources */,
+				65EE426A1EB6E0C500671654 /* InfoTexdFieldView.m in Sources */,
+				AC48FE691EB99D24000D1D06 /* ReportView.m in Sources */,
+				65E9956A1EB604B900882CE5 /* SSDLoginViewController.m in Sources */,
+				AC7A92861EB84426004BA7A7 /* BizInfoButton.m in Sources */,
+				655810EA1EB7229400BD6369 /* SSDBizInfoStep-3ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65E995441EB6020200882CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E995451EB6020200882CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65E995491EB6020200882CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E9954A1EB6020200882CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65E9954D1EB6020200882CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65E9954E1EB6020200882CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65E995501EB6020200882CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAF748B2876F3E272F5BB0C /* Pods-ssda4ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZX7M7HW53;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ssda4ios/Classes/Tools/PrefixHeader.pch";
+				INFOPLIST_FILE = ssda4ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaga.ssda4ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65E995511EB6020200882CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FEC8C5A737B6575D2CD56F4 /* Pods-ssda4ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZX7M7HW53;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ssda4ios/Classes/Tools/PrefixHeader.pch";
+				INFOPLIST_FILE = ssda4ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaga.ssda4ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65E995331EB6020200882CE5 /* Build configuration list for PBXProject "ssda4ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E9954D1EB6020200882CE5 /* Debug */,
+				65E9954E1EB6020200882CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E9954F1EB6020200882CE5 /* Build configuration list for PBXNativeTarget "ssda4ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E995501EB6020200882CE5 /* Debug */,
+				65E995511EB6020200882CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65E995301EB6020200882CE5 /* Project object */;
+}
